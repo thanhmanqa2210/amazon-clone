@@ -1,0 +1,48 @@
+.payment {
+    background-color: white;
+    .link {
+        color: black;
+    }
+    &_container>h1 {
+        text-align: center;
+        padding: 10px;
+        font-weight: 500;
+        background-color: rgb(231, 228, 228);
+        border-bottom: 1px solid rgb(194, 191, 191);
+        box-shadow: 2px 1px 5px rgb(186, 186, 189);
+    }
+    &_section {
+        display: flex;
+        padding: 20px;
+        margin: 0 20px;
+        border-bottom: 1px solid rgb(228, 224, 224);
+    }
+    &_title {
+        flex: 0.2;
+        padding: 5px;
+        margin-right: 20px;
+        box-shadow: 2px 0px 1px rgb(211, 208, 208);
+    }
+    &_address,
+    &_item,
+    &_details {
+        flex: 0.8;
+    }
+    &_details {
+        form {
+            max-width: 500px;
+        }
+    }
+    &_priceContainer {
+        .btn {
+            width: 100%;
+            padding: 5px 0;
+            margin: 10px 0;
+            border-radius: 3px;
+            border: 1px solid rgb(229, 240, 106);
+            &:active {
+                background-color: rgb(212, 212, 19);
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  color: white; }
+  .footer_items {
+    background-color: #232f3e; }
+  .footer_info {
+    background-color: #131a22; }
+
+.border_footer {
+  background-color: #37475a;
+  cursor: pointer; }
+
+.back_to_top {
+  background-color: #b9bdb7;
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+  z-index: 9999;
+  border-radius: 5px; }

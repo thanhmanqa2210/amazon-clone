@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    &_items {
+        background-color: rgb(35, 47, 62);
+    }
+    &_info {
+        background-color: rgb(19, 26, 34);
+    }
+}
+
+.border_footer {
+    background-color: rgb(55, 71, 90);
+    cursor: pointer;
+}
+
+.back_to_top {
+    background-color: rgb(185, 189, 183);
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    z-index: 9999;
+    border-radius: 5px;
+}

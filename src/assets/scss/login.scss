@@ -1,0 +1,73 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    &_image {
+        object-fit: contain;
+        width: 200px;
+        margin: 20px auto;
+    }
+    &_container {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: fit-content;
+        // align-items: center;
+        border: 1px solid lightgray;
+        padding: 40px 20px;
+        border-radius: 5px;
+        margin-bottom: 70px;
+        .title {
+            font-weight: 600;
+            margin-bottom: 30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .form_signIn {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .input_signIn {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 30px;
+                input {
+                    width: 70%;
+                    height: 30px;
+                    padding: 0 5px;
+                }
+            }
+            .btn {
+                background-color: rgb(216, 61, 61);
+                color: white;
+                text-transform: uppercase;
+                padding: 10px 0;
+                border-radius: 2px;
+                border: 1px solid rgb(207, 142, 142);
+                margin-bottom: 20px;
+                &:active {
+                    background-color: red;
+                }
+            }
+        }
+        .check_login {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .login_registerButton {
+            border-radius: 2px;
+            height: 30px;
+            margin-top: 15px;
+            border: 1px solid;
+            border-color: lightgray;
+            cursor: pointer;
+            &:active {
+                background-color: rgb(199, 193, 193);
+                font-weight: 600;
+            }
+        }
+    }
+}
